@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgreen;
+}
+
+.container{
+    width: 800px;
+    height: 100vh;
+    background-image: url(./jungle-background-with-border-from-liana-vine_107791-25897.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.box{
+    margin-top: 20px;
+    
+}
+
+#initial{
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+#range{
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+#range2{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(73, 173, 6);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+button{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(73, 173, 6);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#output{
+    border: 2px solid black;
+    height: 300px;
+    width: 230px;
+    margin-left: 18px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+

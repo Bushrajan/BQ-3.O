@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tables</title>
+    <link rel="stylesheet" href="./table.css">
+</head>
+
+<body>
+    <br><br><br>
+
+    <div class="container">
+        <div class="box">
+            <center>
+                <h1 style="color: rgb(0, 0, 0);text-shadow: 2px 2px rgb(255, 255, 0);font-size:40px; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ">
+                <i>Table Generator</i></h1>
+            </center>
+            <br>
+            <input type="number" placeholder="Enter the number " id="initial" required>
+            <br>
+            <br>
+
+            <input type="number" placeholder="Enter the range number " id="range" required>
+            <br>
+            <br>
+
+            <button onclick="run()">Enter</button>
+            <button onclick="clearOutput()">Clear</button>
+            
+            <br>
+            <br>
+
+            <div id="output" style="overflow-y:scroll"> </div>
+        </div>
+    </div>
+
+</body>
+<script src="./table.js"></script>
+
+</html>
