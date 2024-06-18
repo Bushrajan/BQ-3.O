@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Assignment-1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abel&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        p {
+            margin-top: 0px;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Abel';
+            word-spacing: 7px;
+            font-style: oblique;
+            font-size: larger;
+            background-color: rgb(163, 250, 64);
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img src="./colorful-design-mosque-moon_973085-15255.jpg" alt="logo" style="border-radius:10px" width="40%"
+            height="400px">
+        <br>
+        <br>
+        <br>
+        <h1
+            style="background-color: rgb(225, 0, 255); color:rgb(255, 255, 255); padding:10px; border-radius:10px; margin:0px 25px 1px 25px ">
+            JS Assignment-3 _ Bano Qabil </h1>
+        <h2
+            style="background-color: rgb(255, 31, 158); color:rgb(255, 255, 255); padding:10px; border-radius:10px; margin:0px 25px 1px 25px ">
+            Teacher : Mr. Adil Ahmed Shekhani | Student: Bushra Jan _ 40125 </h2>
+    </center>
+    <hr>
+    <hr>
+    <br><br>
+
+    <p><b>1. Write a program to take “city” name as input from user. If user enters “Karachi”, welcome the user like
+            this: “Welcome to city of lights”</b></p>
+    <script>
+        let city = prompt("Enter your city name: ");
+        if (city.toLowerCase() === "karachi") {
+            alert("Welcome to city of lights");
+        }
+         else {
+            alert("Welcome to " + city);
+        }
+    </script>
+    <hr>
+
+    <p><b>2. Write a program to take “gender” as input from user. If the user is male, give the message: Good Morning
+            Sir. If the user is female, give the message: Good Morning Ma'am. </b></p>
+    <script>
+        let gender = prompt("Enter your gender (male/female): ");
+        if (gender.toLowerCase() === "male") {
+            alert("Good Morning Sir");
+        }
+        else if (gender.toLowerCase() === "female") {
+            alert("Good Morning Ma'am");
+        }
+        else {
+            alert("Invalid input");
+        }
+    </script>
+    <hr>
+    <br>
+
+    <p><b>3. Write a program to take input remaining fuel in car (in litres) from user. If the current fuel is less than
+            0.25litres, show the message “Please refill the fuel in your car” </b></p>
+    <script>
+        let fuel = prompt("Enter the remaining fuel in litres: ");
+        if (fuel < 0.25) {
+            alert("Please refill the fuel in your car");
+        }
+        else {
+            alert("You have enough fuel");
+        }
+
+    </script>
+    <hr>
+    <br>
+
+    <p><b>Run this script, & check whether alert message would be displayed or not.
+            Record the outputs.
+            a. var a = 4;
+            if (++a === 5){
+            alert("given condition for variable a is true");
+            }
+        </b></p>
+    <script>
+        var a = 4;
+        if (++a === 5) {
+            alert("given condition for variable a is true");
+        }
+    </script>
+
+    <b>
+        <p>
+            b. var b = 82;
+            if (b++ === 83){
+            alert("given condition for variable b is true");
+            }
+    </b></p>
+    <script>
+        var b = 82;
+        if (b++ === 83) {
+            alert("given condition for variable b is true");
+        }
+    </script>
+
+    <b>
+        <p>
+            c. var c = 12;
+            if (c++ === 13){
+            alert("condition 1 is true");
+            }
+            if (c === 13){
+            alert("condition 2 is true");
+
+            }
+            if (++c < 14){ alert("condition 3 is true"); } if(c===14){ alert("condition 4 is true"); }</b>
+        </p>
+        <script>
+            var c = 12;
+            if (c++ === 13) {
+                alert("condition 1 is true");
+            }
+            if (c === 13) {
+                alert("condition 2 is true");
+            }
+            if (++c < 14) {
+                alert("condition 3 is true");
+            }
+            if (c === 14) {
+                alert("condition 4 is true");
+            }
+        </script>
+        <hr>
+        <br>
+
+
+
+        <p><b>d. var materialCost = 20000;
+                var laborCost = 2000;
+                var totalCost = materialCost + laborCost;
+                if (totalCost === laborCost + materialCost){
+                alert("The cost equals");
+                }
+            </b></p>
+        <script>
+            var materialCost = 20000;
+            var laborCost = 2000;
+            var totalCost = materialCost + laborCost;
+            if (totalCost === laborCost + materialCost) {
+                alert("The cost equals");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>e. if (true){
+                alert("True");
+                } if (false){
+                alert("False");
+                }
+            </b></p>
+        <script>
+            if (true) {
+                alert("True");
+            }
+            if (false) {
+                alert("False");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>f. if("car" < "cat" ){ alert("car is smaller than cat"); } </b>
+        </p>
+        <script>
+            if ("car" < "cat") {
+                alert("car is smaller than cat");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>6. Write a program to check whether the given number is divisible by 3. Show the message to the user if
+                the number is divisible by 3. </b></p>
+        <script>
+            var num = prompt("Enter a number");
+            if (num % 3 === 0) {
+                alert("The number is divisible by 3");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>7. Write a program that checks whether the given input is an even number or an odd number. </b></p>
+        <script>
+            var num = prompt("Enter a number");
+            if (num % 2 === 0) {
+                alert("The number is even");
+            } else {
+                alert("The number is odd");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>8. Write a program that takes temperature as input and shows a message based on
+                following criteria
+                a. T > 40 then “It is too hot outside.”
+                b. T > 30 then “The Weather today is Normal.”
+                c. T > 20 then “Today's Weather is cool.”
+                d. T > 10 then “OMG! Today's weather is so Cool.”
+            </b></p>
+        <script>
+            var T = prompt("Enter temperature");
+            if (T > 40) {
+                alert("It is too hot outside.");
+            } else if (T > 30) {
+                alert("The Weather today is Normal.");
+            } else if (T > 20) {
+                alert("Today's Weather is cool.");
+            } else if (T > 10) {
+                alert("OMG! Today's weather is so Cool.");
+            } else {
+                alert("Temperature is too low");
+            }
+        </script>
+        <hr>
+        <br>
+
+        <p><b>9. Write a program to create a calculator for +,-,*, / & % using if statements. Take
+                the following input:
+                a. First number
+                b. Second number
+                c. Operation (+, -, *, /, %) Compute & show the calculated result to user.
+            </b></p>
+        <script>
+
+            var num1 = parseFloat(prompt("Enter first number"));
+            var num2 = parseFloat(prompt("Enter second number"));
+            var operation = prompt("Enter operation (+, -, *, /, %)");
+            if (operation === "+") {
+                var result = num1 + num2;
+                alert("The result is " + result);
+            } else if (operation === "-") {
+                var result = num1 - num2;
+                alert("The result is " + result);
+            } else if (operation === "*") {
+                var result = num1 * num2;
+                alert("The result is " + result);
+            } else if (operation === "/") {
+                            if (num2 != 0) {
+                                var result = num1 / num2;
+                            
+                                alert("The result is " + result);
+                            } else {
+                                alert("Error! Division by zero is not allowed.");
+                            }
+              }
+            else if (operation === "%") {
+                           if (num2 != 0) {
+                               var result = num1 % num2;
+                               alert("The result is " + result);
+                           } else {
+                               alert("Error! Division by zero is not allowed.");
+                           }
+            }
+            else {
+                alert("Invalid operation. Please enter +, -, *, / or %.");
+            }
+
+        </script>
+       <hr>
+
+
+
+        <br><br><br><br><br><br><br><br>
+        <hr>
+        <center><b>Copyright<sup>&copy;</sup> 2024 _ Bushra Jan _ 40125</b></center>
+</body>
+
+</html>
