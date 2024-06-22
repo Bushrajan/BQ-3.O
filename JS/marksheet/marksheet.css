@@ -1,0 +1,38 @@
+/* Background  image */
+.container{
+    width: 100%;
+    height: 120vh;
+    /* background-image: linear-gradient(rgba(107, 2, 133, 0.514),rgba(11, 11, 155, 0)), url(./marksheet.jpg); */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.361),rgba(182, 51, 194, 0)), url(./result.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+.container h1{
+    font-size: xx-large;
+    color: #000;
+    font-style: inherit;
+}
+.container{
+    
+    padding-top:10px; 
+    color: rgb(0, 0, 0);
+    font-style: oblique;
+    font: 1em sans-serif;
+}
+
+input{
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #4949493f;
+    color: rgb(0, 0, 0);
+}
+#button {
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    background-color: #000;
+    border-radius: 10px;
+    color: aliceblue;
+}

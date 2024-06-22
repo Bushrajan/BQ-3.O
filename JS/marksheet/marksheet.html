@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Marksheet</title>
+    <link rel="stylesheet" href="./marksheet.css">
+</head>
+<body>
+        <center> 
+         <div class="container">
+            <!-- ****** MarkSheet ******* -->
+         <div class="content1">    
+            <h1><u><b>Assignment 04 <br>
+            Teacher : Mr. Adil Ahmed Shekhani <br>Student : Bushra Jan <br><br> </b></u></h1>
+            <h2><u><b>MARKSHEET</b></u></h2>
+            
+            <h1 id="time"></h1>
+            <input type="number" placeholder =" Enter Eng marks"  id="eng"   required   > <br><br>
+            <input type="number" placeholder ="Enter Maths marks" id="maths" required   > <br><br>
+            <input type="number" placeholder ="Enter Chem marks" id="chem"  required   > <br><br>
+            <button id="button" onclick="markSheet()"><b>Result</b></button>
+                           
+            <div class="result"><br><br>
+            <i>
+            <h2>Total Marks:    <span id="total">  </span>  </h2>
+            <h2>Obtained Marks: <span id="obt">    </span>  </h2>
+            <h2>Percentage:     <span id="per">    </span>% </h2>
+            <h2>Grade :         <span id="grade">  </span>  </h2>
+            <h2>Remarks:        <span id="remarks"></span>  </h2>
+            </i>
+        </div>
+    </div><br><br><br>
+        </center>   
+</div>
+<br><br><br><br><br><br>
+<center>
+    <script>
+    
+        const totalMarks = 200;
+        // Array of Objects
+        const students = [
+        {
+            name: "Ali",
+            scienceMarks: 90,
+            englishMarks: 70,
+        },
+        {
+            name: "Huzaifa",
+            scienceMarks: 10,
+            englishMarks: 40,
+        },
+        {
+            name: "Asim",
+            scienceMarks: 40,
+            englishMarks: 60,
+        },
+        ];
+        
+        function calculateMarks(student) {
+            const total = student.scienceMarks + student.englishMarks;
+            const percentage = (total / totalMarks) * 100;
+            return { percentage, total };
+        }
+
+for (let index = 0; index < students.length; index++) {
+    const result = calculateMarks(students[index]);
+    document.write("<br><br>-------------------------------------");
+    document.write("<br>-------------------------------------");
+    document.write("<br>Name: " + students[index].name);
+    document.write("<br>Science: " + students[index].scienceMarks);
+    document.write("<br>English: " + students[index].englishMarks);
+    document.write("<br>Total Marks: " + result.total);
+    document.write("<br>Percentage: " + result.percentage);
+    result.percentage >= 40 ?document.write("<br>PASSED") :document.write("<br>FAILED"); // Turnery Operators
+}
+
+</script>
+<br><br><br><hr><br><br><br>
+<div> copyright<sup>&copy;</sup> 2024 BUSHRA JAN _ 40125  </div>
+</center>
+
+</body>
+<script src="./marksheet.js"></script>
+</html>
