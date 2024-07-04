@@ -1,23 +1,34 @@
 BQ_3.O All assignments links...
 -------------------------------------------------------------
 JS chapter review 1-12
-https://bq-3-o-tvlr.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/Practise%20chapters%20JS/JS_Chapter%201-12
+link = https://bq-3-o-tvlr.vercel.app/
 -------------------------------------------------------------
 JS1
-https://bq-3-o-js-assignments.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/Assignment%2001_JS
+link = https://bq-3-o-js-assignments.vercel.app/
 -------------------------------------------------------------
 JS2
-https://bq-3-o-js-assignment2.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/Assignment%2002_JS
+link = https://bq-3-o-js-assignment2.vercel.app/
 -------------------------------------------------------------
 JS3
-https://bq-3-o-js-3.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/Assignment%2003_JS
+link = https://bq-3-o-js-3.vercel.app/
 -------------------------------------------------------------
 Groceries Bill
-https://martbill.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/Grocery%20bill
+link = https://martbill.vercel.app/
 -------------------------------------------------------------
 Marksheet 
-https://marksheet-five.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/marksheet
+link = https://marksheet-five.vercel.app/
 -------------------------------------------------------------
 Table Generator
-https://bq-3-o.vercel.app/
+Github = https://github.com/Bushrajan/BQ-3.O/tree/main/JS/table%20generator
+link = https://bq-3-o.vercel.app/
+-------------------------------------------------------------
+Weather App
+Github = https://github.com/Bushrajan/Weather-app.git
+link = https://bushrajan.github.io/Weather-app/
 -------------------------------------------------------------
