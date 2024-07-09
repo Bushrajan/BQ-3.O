@@ -32,3 +32,10 @@ Weather App
 Github = https://github.com/Bushrajan/Weather-app.git
 link = https://bushrajan.github.io/Weather-app/
 -------------------------------------------------------------
+-------------------------------------------------------------
+Landing page in React
+Github = https://github.com/Bushrajan/React.Landing.Page.git
+link1 = https://react-landing-page1-bice.vercel.app/
+link2 = https://react-landing-page-orcin.vercel.app/
+-------------------------------------------------------------
+
